@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aquamarine;
+}
+h1{
+    color: white;
+    background-color: black;
+    padding: 1.5rem; 
+    text-align: center;
+}
+.choises{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+}
+.choise{
+    background-color: rgb(6, 6, 80);
+    border-radius: 50%;
+    height: 105px;
+    width: 105px;
+    margin-top: 30px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    /* object-fit: cover; */
+    }
+img{ 
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    
+} 
+#score_contaner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 45px;
+}
+#score_you{
+    text-align: center;
+}
+#score_comp{
+    text-align: center;
+}
+#your_score{
+    font-size: 40px;
+}
+#comp_score{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+#comment{
+    margin-top: 45px;
+    text-align: center;
+    /* border: 2px solid green; */
+}
+#comm{
+    background-color: #081b31;
+    color: #fff;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.choise:hover{
+    /* display: inline; */
+    background-color: brown;
+    opacity: 70%;
+}
+#restart{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+ 
+}
+#ret{
+    border-radius: 5px;
+    background-color:red;
+    padding: 3px;
+
+}
+#ret:hover{
+    background-color: rgb(147, 118, 118);
+    cursor: pointer;
+}
