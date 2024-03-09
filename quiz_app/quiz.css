@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    width: 100%;
+    background-color: aqua; 
+}
+#mm{
+    width: 400px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;background-color: blueviolet;
+}
+#qun{
+    /* border: 2px red solid; */
+    /* width: 80%; */
+    margin: 4px;
+    padding: 3px;
+    background-color: azure;
+}
+#optn{
+    display: flex;
+    margin: 4px;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+.ans{
+    padding: 3px;
+    /* border: 2px red solid; */
+    width: 192px;
+    background-color: bisque;
+}
+#btn{
+    display: flex;
+    margin: 4px;
+    gap: 95px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border: black;
+    background-color:green;
+    border-radius: 14px;
+}
